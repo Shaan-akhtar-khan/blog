@@ -5,44 +5,19 @@
 
 body{
     text-align: center;
+    background-color:rgb(253, 252, 248);
+}
+/*-------------------------------------------headings and paragraph---------------------------------------------------- */
 
-}
-
-
-#first{
-    margin:50px 300px 0px  700px;
-    width: 200px;
-    height: 100px;
-}
-#second{
-  display: inline;
-   margin-left: 200px;
-    width: 200px;
-    height: 100px;
-}
-#third{
-    width:40%;
-}
-#fourth{
-    margin-right: 20px;
-    width: 30%;
-    float: left;
-    
-}
-#fifth{
-    float: right;
-    width:30%;
-}
-#sixth{
-    width:25%;
-}
 h1{
-    font-family: bill smith    regular;
+    font-family: bill smith regular, sans-serif;
     color: #347ee0;
-    font-weight: lighter;
+    font-weight:800;
     width: 400px;
-    font-size: 50px;
-    display: inline-block;  
+    margin-top:30px;
+    font-size: 2.5rem;
+    display: inline;
+      
 }
 
 h2{
@@ -51,6 +26,59 @@ h2{
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+h4{
+
+    font-family: sans-serif;
+    font-size: 20px;
+    color:#11999E ;  
+}
+
+
+p{
+    font-size: 20px;
+    font-family: sans-serif; 
+    color:#557ab3;
+    font-weight: bold;
+    padding:20px;
+    
+}
+
+
+/*------------------------------------------ images--------------------------------------------------------- */
+#first{
+    margin:50px 300px 0px  700px;
+  
+}
+#second{
+  display: inline;
+   margin-left: 200px;
+}
+#third{
+    margin-top:80px ;
+    width:60%;
+    text-align: left;
+    display: block;
+}
+#fourth{
+    margin-right: 40px;
+    width: 20%;
+    float: left;
+    
+}
+#fifth{
+    float: right;
+    width:30%;
+}
+#sixth{
+    width:45%;
+}
+
+#last_again{
+    color:black;
+}
+
+
 #hr_one{
     color:transparent;
     width:100%;
@@ -68,17 +96,31 @@ hr{
    
     
 }
-p{
-    font-size: 20px;
-    font-family: sans-serif; 
-    color:#557ab3;
-    font-weight: bold;
-    padding:20px;
+/*-------------------------------------------------------- class ----------------------------------------------------------*/
+.top{
+    margin-bottom: 10% ;
+    line-height: 2;
+    padding: 0 20%;
     
+
 }
-#last_again{
-    color:#FAF0E4
+.bottom{
+    width:50%;
+    margin:100px auto 100px auto;
+    line-height: 2;
+    text-align:inherit;
 }
+.middle{
+    width:50%;
+    margin:100px auto 100px auto;
+    line-height: 2;
+    text-align: left;
+}
+.bottom-again{
+    height: 150px;
+    background-color: #044a4b;
+}
+
 
 .a_link{
     color:#7f9697;
@@ -99,31 +141,6 @@ p{
     margin-bottom: 100px;
 }
 
-
-.top{
-    background-color:#FAF0E4;
-    margin:100px auto 50px auto;
-    line-height: 2;
-    
-
-}
-.bottom,.middle{
-    width:50%;
-    margin:100px auto 100px auto;
-    line-height: 2;
-    text-align: left;
-}
-.bottom-again{
-    height: 150px;
-    background-color: #044a4b;
-}
-
-h4{
-
-    font-family: sans-serif;
-    font-size: 20px;
-    color:#11999E ;  
-}
 
 
 .btn {
